@@ -1,0 +1,148 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:R R1
+U 1 1 5EBE491F
+P 3700 3250
+F 0 "R1" H 3770 3296 50  0000 L CNN
+F 1 "1M" H 3770 3205 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 3630 3250 50  0001 C CNN
+F 3 "~" H 3700 3250 50  0001 C CNN
+	1    3700 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1_Small C1
+U 1 1 5EBE4DE5
+P 3700 3650
+F 0 "C1" H 3791 3696 50  0000 L CNN
+F 1 "4.7uF" H 3791 3605 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 3700 3650 50  0001 C CNN
+F 3 "~" H 3700 3650 50  0001 C CNN
+	1    3700 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D1
+U 1 1 5EBE5B9E
+P 3700 4050
+F 0 "D1" V 3739 3933 50  0000 R CNN
+F 1 "R_LED" V 3648 3933 50  0000 R CNN
+F 2 "LED_THT:LED_D5.0mm" H 3700 4050 50  0001 C CNN
+F 3 "~" H 3700 4050 50  0001 C CNN
+	1    3700 4050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Transistor_BJT:2N3905 Q2
+U 1 1 5EBE7183
+P 5250 3450
+F 0 "Q2" H 5440 3404 50  0000 L CNN
+F 1 "2N3905" H 5440 3495 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 5450 3375 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3905.pdf" H 5250 3450 50  0001 L CNN
+	1    5250 3450
+	1    0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male J1
+U 1 1 5EBE7DB9
+P 6500 3250
+F 0 "J1" H 6472 3132 50  0000 R CNN
+F 1 "Conn_01x02_Male" H 6472 3223 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 6500 3250 50  0001 C CNN
+F 3 "~" H 6500 3250 50  0001 C CNN
+	1    6500 3250
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+5V #PWR0101
+U 1 1 5EBE9176
+P 6000 2800
+F 0 "#PWR0101" H 6000 2650 50  0001 C CNN
+F 1 "+5V" H 6015 2973 50  0000 C CNN
+F 2 "" H 6000 2800 50  0001 C CNN
+F 3 "" H 6000 2800 50  0001 C CNN
+	1    6000 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 5EBE9862
+P 6300 4500
+F 0 "#PWR0102" H 6300 4250 50  0001 C CNN
+F 1 "GND" H 6305 4327 50  0000 C CNN
+F 2 "" H 6300 4500 50  0001 C CNN
+F 3 "" H 6300 4500 50  0001 C CNN
+	1    6300 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 3750 3700 3900
+Wire Wire Line
+	3700 4200 3700 4500
+Wire Wire Line
+	3700 4500 4700 4500
+Wire Wire Line
+	6300 4500 6300 3250
+Connection ~ 6300 4500
+Wire Wire Line
+	6300 3150 6300 3100
+Wire Wire Line
+	6300 3100 6000 3100
+Wire Wire Line
+	5350 3250 5350 3100
+Connection ~ 5350 3100
+Wire Wire Line
+	5350 3100 3700 3100
+Wire Wire Line
+	5350 3650 5350 3900
+Wire Wire Line
+	5350 3900 3700 3900
+Connection ~ 3700 3900
+Wire Wire Line
+	3700 3400 3700 3500
+$Comp
+L Transistor_BJT:2N3904 Q1
+U 1 1 5EBE695F
+P 4600 3650
+F 0 "Q1" H 4790 3696 50  0000 L CNN
+F 1 "2N3904" H 4790 3605 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 4800 3575 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 4600 3650 50  0001 L CNN
+	1    4600 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4700 3450 5050 3450
+Wire Wire Line
+	4400 3650 4400 3500
+Wire Wire Line
+	4400 3500 3700 3500
+Connection ~ 3700 3500
+Wire Wire Line
+	3700 3500 3700 3550
+Wire Wire Line
+	4700 3850 4700 4500
+Connection ~ 4700 4500
+Wire Wire Line
+	4700 4500 6300 4500
+Wire Wire Line
+	6000 2800 6000 3100
+Connection ~ 6000 3100
+Wire Wire Line
+	6000 3100 5350 3100
+$EndSCHEMATC

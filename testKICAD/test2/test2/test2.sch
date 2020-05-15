@@ -1,0 +1,146 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:R R1
+U 1 1 5EBF25E3
+P 5000 2500
+F 0 "R1" H 5070 2546 50  0000 L CNN
+F 1 "1M" H 5070 2455 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 4930 2500 50  0001 C CNN
+F 3 "~" H 5000 2500 50  0001 C CNN
+	1    5000 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1_Small C1
+U 1 1 5EBF2744
+P 5000 2950
+F 0 "C1" H 5091 2996 50  0000 L CNN
+F 1 "4.7uF" H 5091 2905 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 5000 2950 50  0001 C CNN
+F 3 "~" H 5000 2950 50  0001 C CNN
+	1    5000 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D1
+U 1 1 5EBF313E
+P 5000 3400
+F 0 "D1" V 5039 3283 50  0000 R CNN
+F 1 "R_LED" V 4948 3283 50  0000 R CNN
+F 2 "LED_THT:LED_D5.0mm" H 5000 3400 50  0001 C CNN
+F 3 "~" H 5000 3400 50  0001 C CNN
+	1    5000 3400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Transistor_BJT:2N3905 Q2
+U 1 1 5EBF3CD3
+P 6450 2650
+F 0 "Q2" H 6640 2604 50  0000 L CNN
+F 1 "2N3905" H 6640 2695 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 6650 2575 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3905.pdf" H 6450 2650 50  0001 L CNN
+	1    6450 2650
+	1    0    0    1   
+$EndComp
+$Comp
+L Transistor_BJT:2N3904 Q1
+U 1 1 5EBF4999
+P 5900 2850
+F 0 "Q1" H 6090 2896 50  0000 L CNN
+F 1 "2N3904" H 6090 2805 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 6100 2775 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 5900 2850 50  0001 L CNN
+	1    5900 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 5EBF50FD
+P 7400 3700
+F 0 "#PWR0101" H 7400 3450 50  0001 C CNN
+F 1 "GND" H 7405 3527 50  0000 C CNN
+F 2 "" H 7400 3700 50  0001 C CNN
+F 3 "" H 7400 3700 50  0001 C CNN
+	1    7400 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0102
+U 1 1 5EBF55E0
+P 7350 2200
+F 0 "#PWR0102" H 7350 2050 50  0001 C CNN
+F 1 "+5V" H 7365 2373 50  0000 C CNN
+F 2 "" H 7350 2200 50  0001 C CNN
+F 3 "" H 7350 2200 50  0001 C CNN
+	1    7350 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male J1
+U 1 1 5EBF5CA5
+P 7700 2400
+F 0 "J1" H 7672 2282 50  0000 R CNN
+F 1 "Conn_01x02_Male" H 7672 2373 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 7700 2400 50  0001 C CNN
+F 3 "~" H 7700 2400 50  0001 C CNN
+	1    7700 2400
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5000 2650 5000 2850
+Wire Wire Line
+	5000 3050 5000 3250
+Wire Wire Line
+	5000 3550 5000 3700
+Wire Wire Line
+	5000 3700 6000 3700
+Wire Wire Line
+	7400 3700 7400 2400
+Wire Wire Line
+	7400 2400 7500 2400
+Connection ~ 7400 3700
+Wire Wire Line
+	7500 2300 7350 2300
+Wire Wire Line
+	5000 2300 5000 2350
+Wire Wire Line
+	7350 2200 7350 2300
+Connection ~ 7350 2300
+Wire Wire Line
+	7350 2300 6550 2300
+Wire Wire Line
+	6550 2450 6550 2300
+Connection ~ 6550 2300
+Wire Wire Line
+	6550 2300 5000 2300
+Wire Wire Line
+	6550 2850 6550 3250
+Wire Wire Line
+	6550 3250 5000 3250
+Connection ~ 5000 3250
+Wire Wire Line
+	6250 2650 6000 2650
+Wire Wire Line
+	5700 2850 5000 2850
+Connection ~ 5000 2850
+Wire Wire Line
+	6000 3050 6000 3700
+Connection ~ 6000 3700
+Wire Wire Line
+	6000 3700 7400 3700
+$EndSCHEMATC
