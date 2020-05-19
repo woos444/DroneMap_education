@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name wooslib)(type KiCad)(uri C:/Users/user/Desktop/DroneMap_education/testKICAD/Make_FMU3_Power/FMU_Power)(options "")(descr MIC5332))
+  (lib (name FMU_Power)(type KiCad)(uri C:/Users/user/Desktop/DroneMap_education/testKICAD/Make_FMU3_Power/FMU_Power.pretty)(options "")(descr ""))
+)
