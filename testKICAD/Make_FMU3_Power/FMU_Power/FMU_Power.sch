@@ -206,7 +206,7 @@ Wire Wire Line
 	4300 3950 4300 3450
 Wire Wire Line
 	3900 3950 3900 3450
-Text Label 7750 3100 0    50   ~ 0
+Text Label 2800 2950 0    50   ~ 0
 VDD_3V3_SENSORS_EN
 Text Label 7600 3450 0    50   ~ 0
 VDD_3V3_SENSORS
@@ -255,18 +255,14 @@ Text Notes 3450 3500 3    50   ~ 0
 $Comp
 L Connector:Conn_01x04_Male J2
 U 1 1 5EC5E87A
-P 8800 3350
-F 0 "J2" H 8772 3324 50  0000 R CNN
-F 1 "Conn_01x04_Male" H 8772 3233 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical_SMD_Pin1Left" H 8800 3350 50  0001 C CNN
-F 3 "~" H 8800 3350 50  0001 C CNN
-	1    8800 3350
+P 8800 3450
+F 0 "J2" H 8772 3424 50  0000 R CNN
+F 1 "Conn_01x04_Male" H 8772 3333 50  0000 R CNN
+F 2 "wooslib:MIC5332_OUTPUT_Connector" H 8800 3450 50  0001 C CNN
+F 3 "~" H 8800 3450 50  0001 C CNN
+	1    8800 3450
 	-1   0    0    -1  
 $EndComp
-Wire Wire Line
-	8600 3100 8600 3250
-Wire Wire Line
-	4750 3100 8600 3100
 Wire Wire Line
 	8300 3450 8300 3350
 Wire Wire Line
@@ -285,17 +281,6 @@ Wire Wire Line
 	8500 3550 8600 3550
 Wire Wire Line
 	5650 3750 8500 3750
-$Comp
-L Connector:Conn_01x02_Male J1
-U 1 1 5EC3E655
-P 2850 3450
-F 0 "J1" H 2600 3350 50  0000 C CNN
-F 1 "Conn_01x02_Male" H 2700 3250 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical_SMD_Pin1Left" H 2850 3450 50  0001 C CNN
-F 3 "~" H 2850 3450 50  0001 C CNN
-	1    2850 3450
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7450 4500 7100 4500
 Wire Wire Line
@@ -328,4 +313,36 @@ Connection ~ 7100 4500
 Wire Wire Line
 	7100 4500 6700 4500
 Connection ~ 3050 4500
+Wire Wire Line
+	7450 4500 8600 4500
+Wire Wire Line
+	8600 4500 8600 3650
+Connection ~ 7450 4500
+Text Label 8600 3850 0    50   ~ 0
+GND
+$Comp
+L Connector:Conn_01x03_Male J1
+U 1 1 5EC61786
+P 2250 3450
+F 0 "J1" H 2358 3731 50  0000 C CNN
+F 1 "Conn_01x03_Male" H 2300 3650 50  0000 C CNN
+F 2 "wooslib:MIC5332_INPUT_Connectpr_1x3" H 2250 3450 50  0001 C CNN
+F 3 "~" H 2250 3450 50  0001 C CNN
+	1    2250 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4750 3100 4750 2950
+Wire Wire Line
+	4750 2950 2750 2950
+Wire Wire Line
+	2750 2950 2750 3450
+Wire Wire Line
+	2750 3450 2450 3450
+Wire Wire Line
+	3050 3550 2450 3550
+Wire Wire Line
+	3050 3450 3050 3350
+Wire Wire Line
+	3050 3350 2450 3350
 $EndSCHEMATC
