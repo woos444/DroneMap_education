@@ -353,4 +353,6 @@ Text Label 3250 1950 0    39   ~ 0
 VDD_3V3_SENSORS_EN
 Text Label 2900 2700 0    39   ~ 0
 GND
+Text Label 4500 2500 0    39   ~ 0
+FMU-VDD_5V5
 $EndSCHEMATC
