@@ -1,8 +1,8 @@
 (export (version D)
   (design
-    (source /home/thepeach/Desktop/DroneMap_education/testKICAD/Make_FMU3_Power/FMU_Power/FMU_Power.sch)
-    (date "2020년 05월 20일 (수) 오후 01시 33분 01초")
-    (tool "Eeschema 5.1.6-c6e7f7d~86~ubuntu18.04.1")
+    (source C:\Users\user\Desktop\DroneMap_education\testKICAD\Make_FMU3_Power\FMU_Power\FMU_Power.sch)
+    (date "2020-05-21 오전 10:20:55")
+    (tool "Eeschema (5.1.5)-3")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
         (title)
@@ -181,11 +181,11 @@
         (pin (num 8) (name VOUT1) (type power_out)))))
   (libraries
     (library (logical Connector)
-      (uri /usr/share/kicad/library/Connector.lib))
+      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library/Connector.lib"))
     (library (logical Device)
-      (uri /usr/share/kicad/library/Device.lib))
+      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library/Device.lib"))
     (library (logical wooslib)
-      (uri /home/thepeach/Desktop/DroneMap_education/testKICAD/Make_FMU3_Power/FMU_Power/wooslib.lib)))
+      (uri C:\Users\user\Desktop\DroneMap_education\testKICAD\Make_FMU3_Power\FMU_Power/wooslib.lib)))
   (nets
     (net (code 1) (name /FMU-!RESET)
       (node (ref J2) (pin 3))

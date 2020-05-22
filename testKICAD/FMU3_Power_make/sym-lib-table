@@ -1,0 +1,10 @@
+(sym_lib_table
+  (lib (name MIC5332-SSYMT-TR)(type Legacy)(uri ${KIPRJMOD}/MIC5332-SSYMT-TR/MIC5332-SSYMT-TR.lib)(options "")(descr ""))
+  (lib (name KNH16C104DA5TS)(type Legacy)(uri ${KIPRJMOD}/KNH16C104DA5TS/KNH16C104DA5TS.lib)(options "")(descr ""))
+  (lib (name CL21A226MAQNNNE)(type Legacy)(uri ${KIPRJMOD}/CL21A226MAQNNNE/CL21A226MAQNNNE.lib)(options "")(descr ""))
+  (lib (name CL21A106KAYNNNE)(type Legacy)(uri ${KIPRJMOD}/CL21A106KAYNNNE/CL21A106KAYNNNE.lib)(options "")(descr ""))
+  (lib (name CC0603ZRY5V7BB105)(type Legacy)(uri ${KIPRJMOD}/CC0603ZRY5V7BB105/CC0603ZRY5V7BB105.lib)(options "")(descr ""))
+  (lib (name CC0402ZRY5V7BB104)(type Legacy)(uri ${KIPRJMOD}/CC0402ZRY5V7BB104/CC0402ZRY5V7BB104.lib)(options "")(descr ""))
+  (lib (name CC0402KRX7R7BB103)(type Legacy)(uri ${KIPRJMOD}/CC0402KRX7R7BB103/CC0402KRX7R7BB103.lib)(options "")(descr ""))
+  (lib (name wooslib)(type Legacy)(uri ${KIPRJMOD}/wooslib.lib)(options "")(descr ""))
+)

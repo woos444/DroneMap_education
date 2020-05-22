@@ -1,0 +1,31 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# CC0402KRX7R7BB103
+#
+DEF CC0402KRX7R7BB103 C 0 40 N N 1 L N
+F0 "C" -36 109 50 H V L BNN
+F1 "CC0402KRX7R7BB103" -223 -369 50 H V L BNN
+F2 "CAPC1005X55N" 0 0 50 H I L BNN
+F3 "CC0402KRX7R7BB103" 0 0 50 H I L BNN
+F4 "±10%" 0 0 50 H I L BNN
+F5 "Yageo" 0 0 50 H I L BNN
+F6 "10nF" 0 0 50 H I L BNN
+F7 "68R4639" 0 0 50 H I L BNN
+F8 "3019275" 0 0 50 H I L BNN
+F9 "16V" 0 0 50 H I L BNN
+DRAW
+P 2 0 0 8 137 -75 137 0 N
+P 2 0 0 8 137 0 137 75 N
+P 2 0 0 8 162 -75 162 0 N
+P 2 0 0 8 162 0 162 75 N
+P 2 0 0 8 162 0 200 0 N
+P 2 0 0 8 100 0 137 0 N
+X C2 2 300 0 100 L 40 40 0 0 P 
+X C1 1 0 0 100 R 40 40 0 0 P 
+ENDDRAW
+ENDDEF
+#
+# End Library
