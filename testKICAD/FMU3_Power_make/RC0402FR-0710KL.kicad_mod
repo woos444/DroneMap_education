@@ -1,4 +1,4 @@
-(module RC0402FR-0710KL (layer F.Cu) (tedit 5ECB14CF)
+(module RC0402FR-0710KL (layer F.Cu) (tedit 5ECB4A65)
   (fp_text reference REF** (at -0.31 -0.575) (layer F.SilkS)
     (effects (font (size 0.2 0.2) (thickness 0.05)))
   )

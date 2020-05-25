@@ -1,4 +1,4 @@
-(module SON50P200X200X60-9N (layer F.Cu) (tedit 5ECB14AD)
+(module SON50P200X200X60-9N (layer F.Cu) (tedit 5ECB4991)
   (fp_text reference REF** (at -1.175 -1.575) (layer F.SilkS)
     (effects (font (size 0.2 0.2) (thickness 0.05)))
   )
@@ -26,4 +26,9 @@
   (pad 7 smd rect (at 0.97 -0.25) (size 0.76 0.27) (layers F.Cu F.Paste F.Mask))
   (pad 8 smd rect (at 0.97 -0.75) (size 0.76 0.27) (layers F.Cu F.Paste F.Mask))
   (pad 9 smd rect (at 0 0) (size 0.6 1.2) (layers F.Cu F.Mask))
+  (model ${KIPRJMOD}/MIC5332-SSYMT-TR/MIC5332-SSYMT-TR.stp
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
