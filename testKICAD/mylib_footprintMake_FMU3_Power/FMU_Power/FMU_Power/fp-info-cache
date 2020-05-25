@@ -1,4 +1,4 @@
-16955388056701447
+16966516713734681
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -2211,6 +2211,41 @@ SMD 8540
 0
 4
 4
+CC0402KRX7R7BB103
+CAPC1005X55N
+
+
+0
+2
+2
+CC0402ZRY5V7BB104
+CAPC1005X55N
+
+
+0
+2
+2
+CC0603ZRY5V7BB105
+CAPC1608X90
+<b>CAPACITOR</b>
+
+0
+2
+2
+CL21A106KAYNNNE
+CAPC2012X135N
+
+
+0
+2
+2
+CL21A226MAQNNNE
+CAPC2012X140N
+
+
+0
+2
+2
 Calibration_Scale
 Gauge_10mm_Type1_CopperTop
 Gauge, Massstab, 10mm, CopperTop, Type 1,
@@ -50266,6 +50301,13 @@ solder jumper open
 0
 5
 3
+KNH16C104DA5TS
+CAPC1608X90
+<b>CAPACITOR</b>
+
+0
+2
+2
 LED_SMD
 LED-APA102-2020
 http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf
@@ -51372,6 +51414,13 @@ Yellow 5381 Series LED
 0
 2
 2
+MIC5332-SSYMT-TR
+SON50P200X200X60-9N
+
+
+0
+9
+9
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet

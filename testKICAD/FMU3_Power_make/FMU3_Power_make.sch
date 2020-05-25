@@ -173,8 +173,6 @@ Wire Wire Line
 Wire Wire Line
 	3950 3350 3950 3950
 Wire Wire Line
-	3950 3950 3600 3950
-Wire Wire Line
 	3400 3950 3400 2700
 Wire Wire Line
 	3950 3950 4300 3950
@@ -276,27 +274,8 @@ F 5 "RC0402FR-0710KL" V 4450 2200 50  0001 C CNN "부품명"
 $EndComp
 Wire Wire Line
 	4300 2200 4300 2500
-$Comp
-L Device:EMI_Filter_C L1
-U 1 1 5EC9301C
-P 3600 2600
-F 0 "L1" H 3550 2900 50  0000 C CNN
-F 1 "Kyocera KNH16C104bA5TS EMI filter" H 3600 2800 50  0000 C CNN
-F 2 "woos_FMU3:KNH16C104DA5TS_Filter" V 3600 2600 50  0001 C CNN
-F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 3600 2600 50  0001 C CNN
-F 4 "478-6878-1-ND" V 3500 2400 39  0000 C CNN "부품번호"
-	1    3600 2600
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3800 2500 3950 2500
 Wire Wire Line
 	3250 1950 3250 2600
-Wire Wire Line
-	3600 2700 3600 3950
-Connection ~ 3600 3950
-Wire Wire Line
-	3600 3950 3400 3950
 Wire Wire Line
 	4800 2500 4650 2500
 Connection ~ 4650 2500
@@ -342,8 +321,6 @@ FMU-!RESET
 Text Label 8600 2800 0    39   ~ 0
 GND
 Wire Wire Line
-	2900 2500 3400 2500
-Wire Wire Line
 	2900 2600 3250 2600
 Wire Wire Line
 	2900 2700 3400 2700
@@ -355,4 +332,8 @@ Text Label 2900 2700 0    39   ~ 0
 GND
 Text Label 4500 2500 0    39   ~ 0
 FMU-VDD_5V5
+Wire Wire Line
+	2900 2500 3950 2500
+Wire Wire Line
+	3400 3950 3950 3950
 $EndSCHEMATC

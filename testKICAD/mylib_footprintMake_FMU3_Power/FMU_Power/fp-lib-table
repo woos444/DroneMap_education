@@ -1,11 +1,3 @@
 (fp_lib_table
   (lib (name wooslib)(type KiCad)(uri ${KIPRJMOD})(options "")(descr MIC5332))
-  (lib (name CC0402KRX7R7BB103)(type KiCad)(uri ${KIPRJMOD}/CC0402KRX7R7BB103)(options "")(descr ""))
-  (lib (name CC0402ZRY5V7BB104)(type KiCad)(uri ${KIPRJMOD}/CC0402ZRY5V7BB104)(options "")(descr ""))
-  (lib (name CC0603ZRY5V7BB105)(type KiCad)(uri ${KIPRJMOD}/CC0603ZRY5V7BB105)(options "")(descr ""))
-  (lib (name CL21A106KAYNNNE)(type KiCad)(uri ${KIPRJMOD}/CL21A106KAYNNNE)(options "")(descr ""))
-  (lib (name CL21A226MAQNNNE)(type KiCad)(uri ${KIPRJMOD}/CL21A226MAQNNNE)(options "")(descr ""))
-  (lib (name FMU_Power)(type KiCad)(uri ${KIPRJMOD}/FMU_Power)(options "")(descr ""))
-  (lib (name KNH16C104DA5TS)(type KiCad)(uri ${KIPRJMOD}/KNH16C104DA5TS)(options "")(descr ""))
-  (lib (name MIC5332-SSYMT-TR)(type KiCad)(uri ${KIPRJMOD}/MIC5332-SSYMT-TR)(options "")(descr ""))
 )
