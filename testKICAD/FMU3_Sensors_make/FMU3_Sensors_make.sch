@@ -21,6 +21,7 @@ F 0 "U3" H 7100 3100 50  0000 C CNN
 F 1 "ICM-20602" H 7050 2100 50  0000 C CNN
 F 2 "ICM-20602:PQFN50P300X300X80-16N" H 7750 1600 50  0001 L BNN
 F 3 "Unavailable" H 7750 1500 50  0001 L BNN
+F 4 "1428-1060-1-ND‎" H 7500 2500 50  0001 C CNN "제품번호"
 	1    7500 2500
 	1    0    0    -1  
 $EndComp
@@ -33,6 +34,7 @@ F 1 "MS561101BA03-50" H 3400 4400 50  0000 C CNN
 F 2 "MS561101BA03-50:SON125P500X300X100-8N" H 3850 5100 50  0001 L BNN
 F 3 "https://www.te.com/usa-en/product-MS561101BA03-50.html?te_bu=Cor&te_type=disp&te_campaign=seda_glo_cor-seda-global-disp-prtnr-fy19-seda-model-bom-cta_sma-317_1&elqCampaignId=32493" H 3850 5200 50  0001 L BNN
 F 4 "Compliant" H 3850 5300 50  0001 L BNN "Field5"
+F 5 " 824-MS561101BA03-50" H 3450 4750 50  0001 C CNN "제품번호"
 	1    3450 4750
 	1    0    0    -1  
 $EndComp
@@ -509,5 +511,4 @@ Text Label 7950 4600 0    39   ~ 0
 SPI_INT_MISO
 Wire Wire Line
 	1950 3450 1950 3600
-Connection ~ 7650 1750
 $EndSCHEMATC
