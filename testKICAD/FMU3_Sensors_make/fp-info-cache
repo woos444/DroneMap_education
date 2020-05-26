@@ -1,4 +1,4 @@
-16955390419951073
+16949029717722395
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -2211,8 +2211,8 @@ SMD 8540
 0
 4
 4
-CC0402KRX7R7BB103
-CAPC1005X55N
+C1608X6S1C225K080AC
+CAPC1608X90N
 
 
 0
@@ -2220,27 +2220,6 @@ CAPC1005X55N
 2
 CC0402ZRY5V7BB104
 CAPC1005X55N
-
-
-0
-2
-2
-CC0603ZRY5V7BB105
-CAPC1608X90
-<b>CAPACITOR</b>
-
-0
-2
-2
-CL21A106KAYNNNE
-CAPC2012X135N
-
-
-0
-2
-2
-CL21A226MAQNNNE
-CAPC2012X140N
 
 
 0
@@ -46990,6 +46969,13 @@ heatsink
 0
 2
 1
+ICM-20602
+PQFN50P300X300X80-16N
+
+
+0
+16
+16
 Inductor_SMD
 L_6.3x6.3_H3
 Choke, SMD, 6.3x6.3mm 3mm height
@@ -50301,13 +50287,6 @@ solder jumper open
 0
 5
 3
-KNH16C104DA5TS
-CAPC1608X90
-<b>CAPACITOR</b>
-
-0
-2
-2
 LED_SMD
 LED-APA102-2020
 http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf
@@ -51414,13 +51393,20 @@ Yellow 5381 Series LED
 0
 2
 2
-MIC5332-SSYMT-TR
-SON50P200X200X60-9N
+MPU-9250
+QFN40P300X300X105-24N
 
 
 0
-9
-9
+24
+24
+MS561101BA03-50
+SON125P500X300X100-8N
+
+
+0
+8
+8
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
@@ -68711,6 +68697,20 @@ rotary encoder
 0
 5
 4
+SENSOR_CONN
+sensorconnect_1x4
+
+
+0
+4
+4
+SENSOR_CONN
+sensorconnect_1x5
+
+
+0
+5
+5
 Sensor
 Aosong_DHT11_5.5x12.0_P2.54mm
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/DHT11.pdf
@@ -75302,34 +75302,6 @@ Varistor
 RV_Disc_D21.5mm_W11.4mm_P10mm
 Varistor, diameter 21.5mm, width 11.4mm, pitch 10mm
 varistor SIOV
-0
-2
-2
-woos_FMU3
-Conn_01x03_SMD
-
-
-0
-3
-3
-woos_FMU3
-Conn_01x04_SMD
-
-
-0
-4
-4
-woos_FMU3
-KNH16C104DA5TS_Filter
-
-
-0
-4
-4
-woos_FMU3
-RC0402FR-0710KL
-
-
 0
 2
 2

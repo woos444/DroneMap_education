@@ -1,0 +1,8 @@
+(fp_lib_table
+  (lib (name C1608X6S1C225K080AC)(type KiCad)(uri ${KIPRJMOD}/C1608X6S1C225K080AC)(options "")(descr ""))
+  (lib (name CC0402ZRY5V7BB104)(type KiCad)(uri ${KIPRJMOD}/CC0402ZRY5V7BB104)(options "")(descr ""))
+  (lib (name ICM-20602)(type KiCad)(uri ${KIPRJMOD}/ICM-20602)(options "")(descr ""))
+  (lib (name MPU-9250)(type KiCad)(uri ${KIPRJMOD}/MPU-9250)(options "")(descr ""))
+  (lib (name MS561101BA03-50)(type KiCad)(uri ${KIPRJMOD}/MS561101BA03-50)(options "")(descr ""))
+  (lib (name SENSOR_CONN)(type KiCad)(uri ${KIPRJMOD})(options "")(descr ""))
+)
