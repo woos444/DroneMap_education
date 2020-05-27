@@ -14,31 +14,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L ICM-20602:ICM-20602 U3
-U 1 1 5ECBD769
-P 7500 2500
-F 0 "U3" H 7100 3100 50  0000 C CNN
-F 1 "ICM-20602" H 7050 2100 50  0000 C CNN
-F 2 "ICM-20602:PQFN50P300X300X80-16N" H 7750 1600 50  0001 L BNN
-F 3 "Unavailable" H 7750 1500 50  0001 L BNN
-F 4 "1428-1060-1-ND‎" H 7500 2500 50  0001 C CNN "제품번호"
-	1    7500 2500
-	1    0    0    -1  
-$EndComp
-$Comp
-L MS561101BA03-50:MS561101BA03-50 U2
-U 1 1 5ECBE1FE
-P 3450 4750
-F 0 "U2" H 3100 5000 50  0000 C CNN
-F 1 "MS561101BA03-50" H 3400 4400 50  0000 C CNN
-F 2 "MS561101BA03-50:SON125P500X300X100-8N" H 3850 5100 50  0001 L BNN
-F 3 "https://www.te.com/usa-en/product-MS561101BA03-50.html?te_bu=Cor&te_type=disp&te_campaign=seda_glo_cor-seda-global-disp-prtnr-fy19-seda-model-bom-cta_sma-317_1&elqCampaignId=32493" H 3850 5200 50  0001 L BNN
-F 4 "Compliant" H 3850 5300 50  0001 L BNN "Field5"
-F 5 " 824-MS561101BA03-50" H 3450 4750 50  0001 C CNN "제품번호"
-	1    3450 4750
-	1    0    0    -1  
-$EndComp
-$Comp
 L CC0402ZRY5V7BB104:CC0402ZRY5V7BB104 C5
 U 1 1 5ECBF0E1
 P 7650 1450
@@ -208,7 +183,7 @@ Wire Wire Line
 	3300 1000 2750 1000
 Text Label 3850 2950 0    39   ~ 0
 MPU_DRDY
-Text Label 2850 3150 0    39   ~ 0
+Text Label 2750 3150 0    39   ~ 0
 SPI_INT_MISO
 Text Label 1950 1850 0    39   ~ 0
 VDD_3V3_SENSORS
@@ -409,18 +384,6 @@ F 3 "" H 7650 3250 50  0001 C CNN
 	1    7650 3250
 	1    0    0    -1  
 $EndComp
-$Comp
-L MPU-9250:MPU-9250 U1
-U 1 1 5ECBCD1C
-P 3350 2400
-F 0 "U1" H 2800 3300 50  0000 L CNN
-F 1 "MPU-9250" H 2600 2100 50  0000 L CNN
-F 2 "MPU-9250:QFN40P300X300X105-24N" H 3850 1500 50  0001 L BNN
-F 3 "https://www.digikey.in/product-detail/en/tdk-invensense/MPU-9250/1428-1019-1-ND/4626450?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol" H 3850 1400 50  0001 L BNN
-F 4 "1428-1019-1-ND" H 3350 2400 50  0001 C CNN "부품번호"
-	1    3350 2400
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	9150 1700 9150 1600
 Wire Wire Line
@@ -451,34 +414,23 @@ Wire Notes Line
 	8700 3600 5850 3600
 Wire Notes Line
 	5850 3600 5850 850 
-$Comp
-L Connector:Conn_01x04_Male J1
-U 1 1 5ED6C02D
-P 7100 4400
-F 0 "J1" H 7072 4374 50  0000 R CNN
-F 1 "Conn_01x04" H 7072 4283 50  0000 R CNN
-F 2 "SENSOR_CONN:sensorconnect_1x4" H 7100 4400 50  0001 C CNN
-F 3 "~" H 7100 4400 50  0001 C CNN
-	1    7100 4400
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
-	6900 4300 6250 4300
+	7200 4350 6550 4350
 Wire Wire Line
-	6900 4400 6250 4400
+	7200 4450 6550 4450
 Wire Wire Line
-	6900 4500 6250 4500
+	7200 4550 6550 4550
 Wire Wire Line
-	6900 4600 6250 4600
-Text Label 6250 4600 0    39   ~ 0
+	7200 4750 6550 4750
+Text Label 6550 4750 0    39   ~ 0
 GND
 Text Label 7950 4700 0    39   ~ 0
 GND
-Text Label 6250 4500 0    39   ~ 0
+Text Label 6550 4550 0    39   ~ 0
 ICM_CS
-Text Label 6250 4400 0    39   ~ 0
+Text Label 6550 4450 0    39   ~ 0
 BARO_CS
-Text Label 6250 4300 0    39   ~ 0
+Text Label 6550 4350 0    39   ~ 0
 MPU_CS
 Text Label 7950 4300 0    39   ~ 0
 VDD_3V3_SENSORS
@@ -511,4 +463,68 @@ Text Label 7950 4600 0    39   ~ 0
 SPI_INT_MISO
 Wire Wire Line
 	1950 3450 1950 3600
+NoConn ~ 7500 3050
+NoConn ~ 7350 3050
+NoConn ~ 3600 1350
+NoConn ~ 3400 1350
+NoConn ~ 3100 2850
+NoConn ~ 2600 2350
+NoConn ~ 2600 2250
+NoConn ~ 2600 2150
+NoConn ~ 2600 2050
+NoConn ~ 2600 1950
+NoConn ~ 2850 4650
+$Comp
+L Connector:Conn_01x05_Male J1
+U 1 1 5ECF6CEE
+P 7400 4550
+F 0 "J1" H 7372 4574 50  0000 R CNN
+F 1 "Conn_01x05" H 7372 4483 50  0000 R CNN
+F 2 "SENSOR_CONN:sensorconnect_1x5" H 7400 4550 50  0001 C CNN
+F 3 "~" H 7400 4550 50  0001 C CNN
+	1    7400 4550
+	-1   0    0    -1  
+$EndComp
+Text Label 6550 4650 0    39   ~ 0
+MPU_DRDY
+Wire Wire Line
+	7200 4650 6550 4650
+NoConn ~ 4150 2250
+NoConn ~ 4150 2150
+NoConn ~ 4150 2050
+NoConn ~ 4150 1950
+$Comp
+L MPU-9250:MPU-9250 U1
+U 1 1 5ED0BE9B
+P 3350 2400
+F 0 "U1" H 4194 2746 50  0000 L CNN
+F 1 "MPU-9250" H 4194 2655 50  0000 L CNN
+F 2 "MPU-9250:QFN40P300X300X105-24N" H 3850 1500 50  0001 L BNN
+F 3 "https://www.digikey.in/product-detail/en/tdk-invensense/MPU-9250/1428-1019-1-ND/4626450?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol" H 3850 1400 50  0001 L BNN
+	1    3350 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L MS561101BA03-50:MS561101BA03-50 U2
+U 1 1 5ED10178
+P 3450 4750
+F 0 "U2" H 3450 5115 50  0000 C CNN
+F 1 "MS561101BA03-50" H 3450 5024 50  0000 C CNN
+F 2 "MS561101BA03-50:SON125P500X300X100-8N" H 3850 5100 50  0001 L BNN
+F 3 "https://www.te.com/usa-en/product-MS561101BA03-50.html?te_bu=Cor&te_type=disp&te_campaign=seda_glo_cor-seda-global-disp-prtnr-fy19-seda-model-bom-cta_sma-317_1&elqCampaignId=32493" H 3850 5200 50  0001 L BNN
+F 4 "Compliant" H 3850 5300 50  0001 L BNN "Field5"
+	1    3450 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L ICM-20602:ICM-20602 U3
+U 1 1 5ED10DF6
+P 7500 2500
+F 0 "U3" H 7500 3431 50  0000 C CNN
+F 1 "ICM-20602" H 7500 3340 50  0000 C CNN
+F 2 "ICM-20602:PQFN50P300X300X80-16N" H 7750 1600 50  0001 L BNN
+F 3 "Unavailable" H 7750 1500 50  0001 L BNN
+	1    7500 2500
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

@@ -208,7 +208,7 @@ Wire Wire Line
 	3300 1000 2750 1000
 Text Label 3850 2950 0    39   ~ 0
 MPU_DRDY
-Text Label 2850 3150 0    39   ~ 0
+Text Label 2750 3150 0    39   ~ 0
 SPI_INT_MISO
 Text Label 1950 1850 0    39   ~ 0
 VDD_3V3_SENSORS
@@ -437,63 +437,52 @@ Wire Notes Line
 	1700 5500 5100 5500
 Wire Notes Line
 	8700 850  8700 3600
-$Comp
-L Connector:Conn_01x04_Male J1
-U 1 1 5ED6C02D
-P 7100 4400
-F 0 "J1" H 7072 4374 50  0000 R CNN
-F 1 "Conn_01x04" H 7072 4283 50  0000 R CNN
-F 2 "SENSOR_CONN:sensorconnect_1x4" H 7100 4400 50  0001 C CNN
-F 3 "~" H 7100 4400 50  0001 C CNN
-	1    7100 4400
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
-	6900 4300 6250 4300
+	6900 4800 6250 4800
 Wire Wire Line
-	6900 4400 6250 4400
+	6900 4900 6250 4900
 Wire Wire Line
-	6900 4500 6250 4500
+	6900 5000 6250 5000
 Wire Wire Line
-	6900 4600 6250 4600
-Text Label 6250 4600 0    39   ~ 0
+	6900 5200 6250 5200
+Text Label 6250 5200 0    39   ~ 0
 GND
-Text Label 7950 4700 0    39   ~ 0
+Text Label 7750 5200 0    39   ~ 0
 GND
-Text Label 6250 4500 0    39   ~ 0
+Text Label 6250 5000 0    39   ~ 0
 ICM_CS
-Text Label 6250 4400 0    39   ~ 0
+Text Label 6250 4900 0    39   ~ 0
 BARO_CS
-Text Label 6250 4300 0    39   ~ 0
+Text Label 6250 4800 0    39   ~ 0
 MPU_CS
-Text Label 7950 4300 0    39   ~ 0
+Text Label 7750 4800 0    39   ~ 0
 VDD_3V3_SENSORS
-Text Label 7950 4400 0    39   ~ 0
+Text Label 7750 4900 0    39   ~ 0
 SPI_INT_SCK
-Text Label 7950 4500 0    39   ~ 0
+Text Label 7750 5000 0    39   ~ 0
 SPI_INT_MOSI
 $Comp
 L Connector:Conn_01x05_Male J2
 U 1 1 5ED7CDED
-P 8800 4500
-F 0 "J2" H 8772 4524 50  0000 R CNN
-F 1 "Conn_01x05" H 8772 4433 50  0000 R CNN
-F 2 "SENSOR_CONN:sensorconnect_1x5" H 8800 4500 50  0001 C CNN
-F 3 "~" H 8800 4500 50  0001 C CNN
-	1    8800 4500
+P 8600 5000
+F 0 "J2" H 8572 5024 50  0000 R CNN
+F 1 "Conn_01x05" H 8572 4933 50  0000 R CNN
+F 2 "SENSOR_CONN:sensorconnect_1x5" H 8600 5000 50  0001 C CNN
+F 3 "~" H 8600 5000 50  0001 C CNN
+	1    8600 5000
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	7950 4300 8600 4300
+	7750 4800 8400 4800
 Wire Wire Line
-	7950 4400 8600 4400
+	7750 4900 8400 4900
 Wire Wire Line
-	7950 4500 8600 4500
+	7750 5000 8400 5000
 Wire Wire Line
-	7950 4700 8600 4700
+	7750 5200 8400 5200
 Wire Wire Line
-	8600 4600 7950 4600
-Text Label 7950 4600 0    39   ~ 0
+	8400 5100 7750 5100
+Text Label 7750 5100 0    39   ~ 0
 SPI_INT_MISO
 Wire Wire Line
 	1950 3450 1950 3600
@@ -604,4 +593,34 @@ F 3 "" H 6500 1700 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6500 1800 6500 1700
+NoConn ~ 7350 3050
+NoConn ~ 7500 3050
+NoConn ~ 3100 2850
+NoConn ~ 3400 1350
+NoConn ~ 3600 1350
+NoConn ~ 4150 2250
+NoConn ~ 4150 2150
+NoConn ~ 4150 2050
+NoConn ~ 4150 1950
+NoConn ~ 2600 2350
+NoConn ~ 2600 2250
+NoConn ~ 2600 2150
+NoConn ~ 2600 2050
+NoConn ~ 2600 1950
+NoConn ~ 2850 4650
+Wire Wire Line
+	6900 5100 6250 5100
+Text Label 6250 5100 0    39   ~ 0
+MPU_DRDY
+$Comp
+L Connector:Conn_01x05_Male J1
+U 1 1 5ED1C522
+P 7100 5000
+F 0 "J1" H 7072 5024 50  0000 R CNN
+F 1 "Conn_01x05" H 7072 4933 50  0000 R CNN
+F 2 "SENSOR_CONN:sensorconnect_1x5" H 7100 5000 50  0001 C CNN
+F 3 "~" H 7100 5000 50  0001 C CNN
+	1    7100 5000
+	-1   0    0    -1  
+$EndComp
 $EndSCHEMATC
