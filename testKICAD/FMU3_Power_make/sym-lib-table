@@ -7,4 +7,5 @@
   (lib (name CC0402ZRY5V7BB104)(type Legacy)(uri ${KIPRJMOD}/CC0402ZRY5V7BB104/CC0402ZRY5V7BB104.lib)(options "")(descr ""))
   (lib (name CC0402KRX7R7BB103)(type Legacy)(uri ${KIPRJMOD}/CC0402KRX7R7BB103/CC0402KRX7R7BB103.lib)(options "")(descr ""))
   (lib (name wooslib)(type Legacy)(uri ${KIPRJMOD}/wooslib.lib)(options "")(descr ""))
+  (lib (name FMU3_Power_make-rescue)(type Legacy)(uri ${KIPRJMOD}/FMU3_Power_make-rescue.lib)(options "")(descr ""))
 )
