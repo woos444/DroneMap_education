@@ -1,7 +1,0 @@
-(sym_lib_table
-  (lib (name MPU-9250)(type Legacy)(uri ${KIPRJMOD}/MPU-9250/MPU-9250.lib)(options "")(descr ""))
-  (lib (name ICM-20602)(type Legacy)(uri ${KIPRJMOD}/ICM-20602/ICM-20602.lib)(options "")(descr ""))
-  (lib (name CC0402ZRY5V7BB104)(type Legacy)(uri ${KIPRJMOD}/CC0402ZRY5V7BB104/CC0402ZRY5V7BB104.lib)(options "")(descr ""))
-  (lib (name C1608X6S1C225K080AC)(type Legacy)(uri ${KIPRJMOD}/C1608X6S1C225K080AC/C1608X6S1C225K080AC.lib)(options "")(descr ""))
-  (lib (name MS561101BA03-50)(type Legacy)(uri ${KIPRJMOD}/MS561101BA03-50/MS561101BA03-50.lib)(options "")(descr ""))
-)
